@@ -20,5 +20,12 @@ namespace TTT.Tests
 			project.Start();
 			Assert.IsTrue(project.IsActive);
 		}
+
+		[Test()]
+		public void DrawtheGridCorrectly()
+		{
+			Grid grid = new Grid();
+			Assert.IsTrue(true);
+		}
 	}
 }
