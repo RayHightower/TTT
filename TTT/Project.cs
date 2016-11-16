@@ -7,7 +7,7 @@ namespace TTT
 
 		public void Start()
 		{
-				
+			IsActive = true;
 		}
 	}
 }
