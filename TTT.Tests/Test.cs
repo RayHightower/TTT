@@ -22,10 +22,24 @@ namespace TTT.Tests
 		}
 
 		[Test()]
+		public void InitializetheGrid()
+		{
+			string[] ExpectedGrid = new string[] { "0", "1", "2", "3" };
+
+			string[] ActualGrid = ExpectedGrid;
+			// Grid ActualGrid = new Grid();
+
+			for (int i = 1; i == 9; i++)
+			{
+				Assert.AreEqual(ExpectedGrid[i], ActualGrid[i]);
+			}
+		}
+
+		[Test()]
 		public void DrawtheGridCorrectly()
 		{
-			Grid grid = new Grid();
-			Assert.IsTrue(true);
+			// Grid grid = new Grid();
+			Assert.IsTrue(false);
 		}
 	}
 }

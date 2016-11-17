@@ -5,9 +5,10 @@ namespace TTT
 	{
 		public Grid()
 		{
-			char[] gridvalues = new char[10];
+			string[] gridvalues = new string[10] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9" };
 
-			LoadGrid(gridvalues);
+			Console.WriteLine("\nWhere does this output appear?\n");
+			Console.WriteLine(gridvalues);
 
 		}
 
